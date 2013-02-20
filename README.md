@@ -11,6 +11,7 @@ General controller architecture to achieve speed, position or trajectory control
 	- ATLANTE_ROOTPATH, set the path to the "atlante" library (included in MAVwork)
 	- DRONECLIENT_ROOTPATH, set the path to the "drone client" library (included in MAVwork)
 	- VICON_LIBPATH, set the path to the "Vicon" shared library (required for MAVwork, but soon will be optional)
+
 4. Select the multirotor you will be using on '{Your_MAVwork_directory}/include/config_Mydrone.h', by defining only the corresponding _MULTIROTOR_IS_* constant. The MULTIROTOR_PROXY_HOST_IP must be set to the ip where the 'MAVwork' server will be running.
 5. Go to '{Your_MultirotorController_directory}/bin' and run 'make clean all', this will create the mavBrain executable in the 'bin/' folder
 
