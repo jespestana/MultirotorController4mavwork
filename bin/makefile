@@ -24,7 +24,7 @@ GOTWINDOWS = $(patsubst OS=%,yes,$(_WINNAME))
 
 # --------- Start of customizabe parameters ---------
 # The name of the executable. On Windows systems, the extension ".exe" will be appended.
-EXENAME := cvgDroneBrain
+EXENAME := mavBrain
 # The path on which all paths are referenced
 ROOTPATH := $(shell pwd)
 # The paths of the framework library

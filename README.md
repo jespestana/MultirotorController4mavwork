@@ -1,0 +1,1 @@
+General controller architecture to achieve speed, position or trajectory control of a Multirotor. The implementations is compatible with mavowrk (https://github.com/uavster/mavwork) and with the following multirotors: AR Drone 1, Asctec Pelican and Uastech LinkQuad. 
