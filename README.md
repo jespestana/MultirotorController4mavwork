@@ -47,4 +47,4 @@ The configuration of the architecture is defined by the constants specified in t
 
 where MULTIROTOR_MODEL is either Parrot, Pelican or LinkQuad. These files are always included in your .cpp files if '{Your_MAVwork_directory}/include/config_Mydrone.h' is included. The configuration constant names should be self-explanatory.
 
-If you have any doubts, please contact me at jesus.pestana@upm.es .
+If you have any doubts, please contact me at jesus.pestana@upm.es , or through the project's github website https://github.com/jespestana/MultirotorController4mavwork .
