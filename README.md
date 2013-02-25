@@ -1,4 +1,16 @@
-General controller architecture to achieve speed, position or trajectory control of a Multirotor. The implementations is compatible with MAVwork (https://github.com/uavster/mavwork) and with the following multirotors: AR Drone 1, Asctec Pelican and Uastech LinkQuad. 
+-------------------------------------------
+SAFETY WARNING AND DISCLAIMER
+-------------------------------------------
+
+You are using this software at your onw risk. The authors do not accept any responsibility for personal injuries and/or property damage.
+
+Some drones supported by this framework ARE NOT TOYS. Even operation by expert users might cause SERIOUS INJURIES to people around. So, please consider flying in a properly screened or isolated flight area.
+
+-------------------------------------------
+WHAT IS MULTIROTOR CONTROLLER FOR MAVWORK?
+-------------------------------------------
+
+It is a general controller architecture to achieve speed, position or trajectory control for a Multirotor. The implementations is compatible with MAVwork (https://github.com/uavster/mavwork) and with the following multirotors: AR Drone 1, Asctec Pelican and Uastech LinkQuad. The size of this multirotors is about 20-50 cm tall, and as seen from above a square of less than 1mx1m size. It should be useful for multirotors of similar sizes, for instances oktopers of as seen from above a square of less than 1.5mx1.5m size.
 
 -------------------------------------------
  INSTALLATION
