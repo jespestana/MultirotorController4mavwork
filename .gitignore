@@ -1,0 +1,12 @@
+*~
+/bin/logs/*
+/bin/logs/*/*
+/bin/obj/
+/bin/obj/*
+/bin/mavBrain
+
+.cproject
+.project
+bin/.cproject
+bin/.project
+
